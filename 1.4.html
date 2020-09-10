@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание №4</title>
+</head>
+
+<body>
+    
+    <form>
+        <fieldset>
+            <legend>Данные о вкладчике банка</legend>
+
+            <p><label>Номер лицевого счёта</label>
+                <input required placeholder="Номер счёта" type="number" id="number"></p>
+                
+            <p><label>Категория вклада</label>
+                <input required placeholder="Вид вклада" type="text" id="vklad"></p>
+
+             <fieldset>
+                <legend>Паспортные данные</legend>
+            <p><label> Имя: </label>
+                <input required placeholder="Введите имя" type="text" name="firstname"></p>
+    
+            <p><label> Фамилия: </label>
+                <input required placeholder="Ввидите фамилию" type="text" name="lastname"></p>
+
+            <p><label> Номер: </label>
+                <input required placeholder="Ввидите номер паспорта" type="number" name="np"></p>
+
+            <p><label> Серия: </label>
+                <input required placeholder="Ввидите серию паспорта" type="number" name="sp"></p>
+
+            <p><label> Дата выдачи: </label>
+                <input required type="date" name="date"></p>
+            </fieldset>
+
+            <p><label> Текущая сумма вклада: </label>
+                <input required placeholder="Ввидите сумму" type="number" name="summa"></p>
+
+            <p><label> Дата последней операции: </label>
+                <input required type="date" name="dt"></p>
+
+        </fieldset>
+
+        <label">Отправить данные: </label>
+            <input type="submit" value="Отправить">
+
+        <p><label>Очистить данные: </label>
+	    	<input type="reset" value="Очистить"></p>
+    </form>
+
+</body>
+</html>
